@@ -1,0 +1,45 @@
+.chapterContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chapterPage {
+    display: flex;
+    color: rebeccapurple;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.chapterButtonList {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.chapterButton {
+    width: 250px;
+    font-size: 18px;
+}
+
+.chapterPage .prePage {
+    padding: 10px;
+}
+
+.chapterPage .nextPage {
+    padding: 10px;
+}
+
+.chapterPage .firstPage {
+    padding: 10px;
+    font-size: 14px;
+    color: aqua;
+}
+
+.chapterPage .lastPage {
+    padding: 10px;
+    font-size: 14px;
+    color: aqua;
+}

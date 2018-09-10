@@ -1,0 +1,85 @@
+div {
+    color: rebeccapurple;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #666;
+    outline: none!important;
+}
+
+.page-home .icon {
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.page-home .title .name {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+}
+
+.page-home .title .more {
+    float: right;
+    margin-right: 15px;
+    color: #999;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.page-home {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.page-home .container {
+    width: 1200px;
+    margin: 15px;
+}
+
+.page-home .content {
+    margin-bottom: 15px;
+}
+
+.page-home .content .content-left {
+    float: left;
+    width: 250px;
+}
+
+.page-home .content .content-left .category .category-block {
+    padding: 0 15px;
+    border: 1px solid #eee;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.page-home .content .content-left .category .category-block .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.page-home .content .content-left .category  .category-block .category-list {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.page-home .content .content-left .category  .category-block .category-list a {
+    float: left;
+    display: block;
+    width: 33.333%;
+    line-height: 18px;
+    padding: 2px 0;
+}
+
+.page-home .content .content-left .category  .category-block .category-list a .name {
+    font-size: 13px;
+}
+.page-home .content .content-left .category  .category-block .category-list a .bookCount {
+    font-size: 11px;
+    color: #999;
+}
